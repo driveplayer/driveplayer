@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Drive API Quickstart</title>
+    <meta charset='utf-8' />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <button id="authorize-button" style="display: none;">Authorize</button>
+    <button id="signout-button" style="display: none;">Sign Out</button>
+    <p id="song_name"></p>
+    <audio id="song" controls style="width: 80%"></audio>
+    <pre id="content">
+      <!--<p id="song_name"></p>-->
+      <!--<audio id="song_controls"></audio>-->
+    </pre>
+    <script async defer src="asd.js"></script>
+    <script async defer src="api.js" onload="this.onload=function(){};handleClientLoad()" onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script>
+  </body>
+</html>

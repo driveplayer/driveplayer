@@ -1,0 +1,20 @@
+#signin-banner {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: gray;
+}
+#signin-banner button {
+    margin-left: 40%;
+    margin-top: 40%;
+}
+
+#song {
+    position: relative;
+}
+
+#song_name {
+    position: relative;
+}

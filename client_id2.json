@@ -1,0 +1,9 @@
+{"web":{"client_id":"1084390841753-3bindk66b2k3e625g6b1g22e9g8ullhn.apps.googleusercontent.com",
+   "project_id":"inner-radius-182822",
+   "auth_uri":"https://accounts.google.com/o/oauth2/auth",
+   "token_uri":"https://accounts.google.com/o/oauth2/token",
+   "auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+   "client_secret":"JXEdYI5zxiM5Sh8sJrpKrx5j",
+   "javascript_origins":["http://localhost:8000","https://driveplayer.github.com"],
+   "api_key": "AIzaSyB4RpdkI6Luzs7Zk2xp6HvybCUNrGiMpo4"
+   }}
