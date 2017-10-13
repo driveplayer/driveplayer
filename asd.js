@@ -1,5 +1,5 @@
-var CLIENT_ID = '1084390841753-3bindk66b2k3e625g6b1g22e9g8ullhn.apps.googleusercontent.com';
-var API_KEY = 'AIzaSyB4RpdkI6Luzs7Zk2xp6HvybCUNrGiMpo4';
+var CLIENT_ID = '1084390841753-esl5k5jcothmlthjo67dv36ub9o029q5.apps.googleusercontent.com	 ';
+var API_KEY = 'AIzaSyAlr01rzvVSEDgvJykLYfVXmjeFwLbX_bc';
 var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/drive/v3/rest"];
 var SCOPES = 'https://www.googleapis.com/auth/drive.metadata.readonly';
 var authorizeButton = document.getElementById('authorize-button');
