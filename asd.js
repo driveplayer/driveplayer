@@ -57,10 +57,10 @@ function appendPre(name, link) {
     if (link === "") {
         PRE.innerHTML += "<h3>" + name + "</h3>"
     } else {
-        // PRE.innerHTML += Stringformat(
-        //     "<a onclick='setSong(\"{0}\",\"{1}\")'><h3>{0}</h3></a>", name, link
-        // );
-        PRE.innerHTML += "<a onclick='setSong(\"${name}\",\"${link}\")'><h3>${name}</h3></a>";
+        PRE.innerHTML += Stringformat(
+            "<a onclick='setSong(\"{0}\",\"{1}\")'><h3>{0}</h3></a>", name, link
+        );
+        // PRE.innerHTML += "<a onclick='setSong(\"${name}\",\"${link}\")'><h3>${name}</h3></a>";
     }
 }
 
