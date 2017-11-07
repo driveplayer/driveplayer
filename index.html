@@ -4,6 +4,12 @@
     <title>DrivePlayer</title>
     <meta charset='utf-8' />
     <link rel="stylesheet" href="style.css">
+    <script src="/audiojs/audio.min.js"></script>
+    <script>
+      audiojs.events.ready(function() {
+        var as = audiojs.createAll();
+      });
+    </script>
   </head>
   <body>
 
