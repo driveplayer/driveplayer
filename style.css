@@ -30,4 +30,5 @@
 .song p {
     text-align: center;
     white-space: pre-wrap;
+    overflow: hidden;
 }
