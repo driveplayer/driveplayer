@@ -11,10 +11,17 @@
     margin-top: 40%;
 }
 
-#song {
+#player {
     position: relative;
 }
 
 #song_name {
     position: relative;
+}
+
+.song {
+    width: 80%;
+    height: fit-content;
+    border-top: solid black;
+    border-bottom: solid black;
 }

@@ -49,7 +49,7 @@ function handleSignoutClick(event) {
 
 function setSong(name, link) {
     document.getElementById('song_name').innerHTML = name;
-    document.getElementById('song').src = link;
+    document.getElementById('player').src = link;
 }
 
 function appendPre(name, link) {
@@ -58,7 +58,7 @@ function appendPre(name, link) {
         PRE.innerHTML += "<h3>" + name + "</h3>"
     } else {
         PRE.innerHTML += Stringformat(
-            "<a onclick='setSong(\"{0}\",\"{1}\")'><h3>{0}</h3></a>", name, link
+            "<div class=\"song\"><a onclick='setSong(\"{0}\",\"{1}\")'><h3>{0}</h3></a></div>", name, link
         );
         // PRE.innerHTML += "<a onclick='setSong(\"${name}\",\"${link}\")'><h3>${name}</h3></a>";
     }
