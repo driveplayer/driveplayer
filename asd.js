@@ -85,8 +85,6 @@ function listFiles(nextPage) {
     gapi.client.drive.files.list(params)
         .then(function (response) {
             nextPage = response.result.nextPageToken;
-            console.log(response);
-            console.log(nextPage);
             var files = response.result.files;
             var n = 0;
             if (files && files.length > 0) {
