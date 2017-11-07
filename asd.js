@@ -58,7 +58,7 @@ function appendPre(name, link) {
         PRE.innerHTML += "<h3>" + name + "</h3>"
     } else {
         PRE.innerHTML += Stringformat(
-            "<div class=\"song\"><a onclick='setSong(\"{0}\",\"{1}\")'><h3>{0}</h3></a></div>", name, link
+            "<div class=\"song\"><a onclick='setSong(\"{0}\",\"{1}\")'><p>{0}</p></a></div>", name, link
         );
         // PRE.innerHTML += "<a onclick='setSong(\"${name}\",\"${link}\")'><h3>${name}</h3></a>";
     }
